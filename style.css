@@ -49,12 +49,12 @@ body{
     padding:10px;
     text-align: center;
 }
-#data-diri .bagian-1 h2{
+#data-diri #bagian-1 h2{
     color:tomato;
     font-weight: bold;
     
 }
-#data-diri .bagian-1 p{
+#data-diri #bagian-1 p{
     text-align: justify;
     font-size: 10pt;
     width:70%;
@@ -71,16 +71,16 @@ body{
     height:30px;
     width:100%;
 }
-#data-diri .bagian-2 h2{
+#data-diri #bagian-2 h2{
     color:tomato;
     font-weight: bold;
 }
-#data-diri .bagian-2 table{
+#data-diri #bagian-2 table{
     margin:0 auto;
     text-align: center;
     
 }
-#data-diri .bagian-2 table b{
+#data-diri #bagian-2 table b{
     font-size: 18pt;
 }
 .gambar-service{
