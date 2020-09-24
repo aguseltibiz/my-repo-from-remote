@@ -28,16 +28,27 @@ body{
 #header{
     width:100%;
     margin:0 auto;
-    padding:10px 0px;
-    height:300px;
-    background-color: tomato;
+    padding:0px 0px;
+    height:400px;
+    background-image: url(images/background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-blend-mode: overlay black;
     text-align: center;
     color:white;
+    vertical-align:center;
 }
-#header img{
+#overlay{
+    background-color:rgb(0, 0, 0, 0.8);
+    width:100%;
+    height:100%;
+}
+#header #overlay img{
     width:150px;
     border-radius: 100px;
-    margin-top:45px;
+    margin-top:95px;
     text-align: center;
 }
 #header .nama{
@@ -67,7 +78,7 @@ body{
 #footer{
     text-align: center;
     color:white;
-    background-color: tomato;
+    background-color:tomato;
     font-size: 10pt;
     line-height: 30px;
     height:30px;
@@ -80,10 +91,22 @@ body{
 #data-diri #bagian-2 table{
     margin:0 auto;
     text-align: center;
-    
 }
 #data-diri #bagian-2 table b{
     font-size: 18pt;
+}
+#bagian-2-atas-kiri, #bagian-2-atas-kanan, #bagian-2-bawah-kiri, #bagian-2-bawah-kanan {
+    width:30%;
+    height:200px;
+    border: 0px solid #f0f0f0;
+}
+#bagian-2-atas-kiri, #bagian-2-bawah-kiri{
+    float: left;
+    margin-left:13%;
+}
+#bagian-2-atas-kanan, #bagian-2-bawah-kanan{
+    float: right;
+    margin-right:13%;
 }
 .gambar-service{
     width:15%;
@@ -92,3 +115,50 @@ body{
 #clear{
     clear: both;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SETTINGAN RESPONSIVE LAYOUT*/
+
+/* untuk ukuran 1080px kebawah */
+@media screen and (max-width: 1080px) {
+
+}
+
+
+/* untuk ukuran layar 700px kebawah */
+@media screen and (max-width: 780px) {
+    #bagian-2-atas-kiri, #bagian-2-atas-kanan, #bagian-2-bawah-kiri, #bagian-2-bawah-kanan{
+        width:70%;
+        float:none;
+        margin:0 auto;
+        text-align: center;
+        padding:10px;
+    }
+    #header{
+        background-size: cover;
+        height:100%;
+    }
+    #header #overlay img{
+        margin-top:23%;
+    }
+}
+
+
