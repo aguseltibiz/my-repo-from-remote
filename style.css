@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #f0f0f0;
     font-family: Neutra Text, Roboto ,Verdana, Geneva, Tahoma, sans-serif;
