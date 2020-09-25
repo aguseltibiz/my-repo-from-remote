@@ -139,7 +139,13 @@ body{
 
 /* untuk ukuran 1080px kebawah */
 @media screen and (max-width: 1080px) {
-
+    #header{
+        background-size: cover;
+        height:100%;
+    }
+    #header #overlay img{
+        margin-top:35%;
+    }
 }
 
 
